@@ -2,6 +2,18 @@ body{
   font-family: Arial, sans-serif;
 }
 
-nav img{
+nav .bg-black img{
   width: 100px;
+}
+
+nav.bg-light img{
+  width: 70px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color:black;
+}
+
+.nav-item.dropdown{
+  padding: 0 5px;
 }
