@@ -72,15 +72,15 @@ nav.bg-light img{
 }
 
 .section_small{
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .section_medium{
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .section_large{
-  padding: 60px;
+  padding: 60px 0;
 }
 
 .section_hero_img{
