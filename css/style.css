@@ -26,7 +26,7 @@ h4{
   font-size: 1.3rem;
 }
 
-h5, p, footer{
+h5, footer{
   font-size: 0.9rem;
 }
 
@@ -48,6 +48,11 @@ nav.bg-light img{
 
 .section_small img{
   border-radius: 20px;
+}
+
+
+.ps5_footer .col{
+  opacity: 50%;
 }
 /******************************/
 
@@ -86,4 +91,15 @@ nav.bg-light img{
  width: 50%;
   padding-bottom: 30px;
 }
+
+.text_small{
+  font-size: 0.9rem;
+}
+
+.ps5_card_img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
 /******************************/
