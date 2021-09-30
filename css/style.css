@@ -1,5 +1,24 @@
+
+/*SELECTORS*/
+/********************************/
 body{
   font-family: Arial, sans-serif;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3{
+  font-size: 2.3rem;
+}
+
+h4{
+  font-size: 1.3rem;
+}
+
+h5, footer{
+  font-size: 0.9rem;
 }
 
 nav .bg-black img{
@@ -17,3 +36,25 @@ nav.bg-light img{
 .nav-item.dropdown{
   padding: 0 5px;
 }
+/******************************/
+
+/*CLASSES/*
+/******************************/
+
+.section_main_hero{
+  padding-top: 250px;
+  padding-bottom: 100px;
+  background-image: url(../img/jumbo-bg.png);
+  background-position: top;
+  background-size: cover;
+}
+
+.section_title{
+  padding-bottom: 50px;
+}
+
+.section_hero_img{
+  width: 200px;
+  padding-bottom: 30px;
+}
+/******************************/
