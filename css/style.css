@@ -1,4 +1,13 @@
 
+.btn{
+  padding: .375rem 1rem;
+}
+
+.btn-danger{
+  background-color: #CD3D0F;
+  border-color:#CD3D0F;
+}
+
 /*SELECTORS*/
 /********************************/
 body{
@@ -50,11 +59,15 @@ nav.bg-light img{
 }
 
 .section_title{
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+.section_subtitle{
+  padding-bottom:10px;
 }
 
 .section_hero_img{
-  width: 200px;
+ width: 50%;
   padding-bottom: 30px;
 }
 /******************************/
