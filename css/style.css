@@ -13,6 +13,11 @@
   border-color:#CD3D0F;
 }
 
+.btn-secondary{
+  background-color: #D9DADC;
+  border-color:#D9DADC;
+}
+
 /*SELECTORS*/
 /********************************/
 body{
