@@ -81,18 +81,18 @@ nav.bg-light img{
 }
 
 .section_small{
-  padding-top: 10px;
-  padding-bottom:10px;
+  padding-top: 20px;
+  padding-bottom:20px;
 }
 
 .section_medium{
-  padding-top: 20px;
-  padding-bottom:20px
+  padding-top: 40px;
+  padding-bottom:40px
 }
 
 .section_large{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .section_hero_img{
