@@ -46,10 +46,9 @@ nav.bg-light img{
   padding: 0 5px;
 }
 
-.section_small img{
+.section_small img, .section_medium img{
   border-radius: 20px;
 }
-
 
 .ps5_footer .col{
   opacity: 50%;
@@ -107,6 +106,10 @@ nav.bg-light img{
 
 .second_hero{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.new_releases_img{
+  padding-bottom: 10px;
 }
 
 /******************************/
