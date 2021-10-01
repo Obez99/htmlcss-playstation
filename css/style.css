@@ -75,6 +75,20 @@ nav.bg-light img{
 .ps5_footer .col{
   opacity: 50%;
 }
+
+.ps5_footer h3{
+  display:none;
+}
+
+@media only screen and (min-width : 540px){
+  .ps5_footer img{
+    transform: scale(0.7);
+  }
+
+  .ps5_footer h3{
+    display:block;
+  }
+}
 /******************************/
 
 /*CLASSES/*
