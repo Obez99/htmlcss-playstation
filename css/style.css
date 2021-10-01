@@ -18,6 +18,15 @@
   border-color:#D9DADC;
 }
 
+.card{
+  border:0;
+}
+
+.card-footer{
+  border:0;
+  background-color: white;
+}
+
 /*SELECTORS*/
 /********************************/
 body{
