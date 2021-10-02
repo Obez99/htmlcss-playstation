@@ -70,14 +70,20 @@ a{
 }
 
 .dropdown-toggle::after{
-  vertical-align: middle;
+  content: url("../img/chevron-down-solid.svg");
+  vertical-align: -0.045em;
   border:0;
   margin-left: .5em;
   width: .7em;
   height: .7em;
-  background-image: url("../img/chevron-down-solid.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+}
+
+.dropdown-toggle:hover::after{
+  content: url("../img/chevron-down-solid-hover.svg");
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#2D64E6;
 }
 
 .section_small img, .section_medium img{
@@ -118,6 +124,10 @@ footer img{
 
 footer a{
   color:white;
+}
+
+footer li{
+  padding: 5px 0;
 }
 
 
