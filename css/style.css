@@ -57,6 +57,10 @@ nav .bg-black img{
   width: 100px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .navbar-light .navbar-nav .nav-link{
   color:black;
 }
@@ -91,6 +95,18 @@ section:nth-of-type(2) .col:first-child a:before{
 
 .ps5_footer small{
   display:none;
+}
+
+footer img{
+  width: 120px;
+}
+
+.footer-language img{
+  width:20px;
+}
+
+footer a{
+  color:white;
 }
 
 
