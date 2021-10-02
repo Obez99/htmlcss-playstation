@@ -80,7 +80,7 @@ main section:nth-of-type(2) .col:first-child a:before{
   position:absolute;
   top:-5px;
   left:-5px;
-  border: 3px solid blue;
+  border: 3px solid #2D64E6;
   border-radius: 20px;
 } 
 
