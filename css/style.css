@@ -1,7 +1,7 @@
 /*BOOTSTRAP CLASSES*/
 /***********************************/
 :root{
-  --bs-primary-rgb:0, 67, 156;
+  --bs-primary-rgb:45, 100, 230;
   --bs-info-rgb:0, 67, 156;
   --bs-warning-rgb:190, 188, 187;
 }
@@ -70,6 +70,10 @@ a{
   text-decoration: none;
 }
 
+footer{
+  background-color: #00439C;
+}
+
 .navbar-light .navbar-nav .nav-link{
   color:black;
 }
@@ -100,7 +104,11 @@ section:nth-of-type(2) .col:first-child a:before{
   left:-5px;
   border: 3px solid #0072CE;
   border-radius: 20px;
-} 
+}
+
+section:nth-of-type(2) .col{
+  transition: transform 0.5s;
+}
 
 .ps5_footer .col{
   opacity: 50%;
@@ -189,9 +197,6 @@ footer li{
 
 .new_releases_img{
   padding-bottom: 10px;
-}
-
-.dropdown_menu{
 }
 
 .dropdown_menu img{
