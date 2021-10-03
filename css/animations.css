@@ -16,3 +16,42 @@
   color:#2D64E6;
 }
 
+.btn::after{
+  content:"";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn:hover::after{
+  border: 2px solid;
+  opacity: 100%;
+}
+
+.btn-secondary:hover::after{
+  opacity:0;
+}
+
+.btn-danger:hover::after{
+  border-color: black;
+}
+
+.btn-dark:hover{
+  background-color:#727272;
+}
+
+.btn-danger:hover{
+  background-color:#CD3D0F;
+}
+
+.btn-secondary:hover{
+  background-color: #D9DADC;
+  box-shadow: 1px 1px 5px white;
+}
+

@@ -1,7 +1,7 @@
 /*BOOTSTRAP CLASSES*/
 /***********************************/
 :root{
-  --bs-primary-rgb:45, 100, 230;
+  --bs-primary-rgb:0, 67, 156;
   --bs-info-rgb:0, 67, 156;
   --bs-warning-rgb:190, 188, 187;
 }
@@ -28,6 +28,15 @@
 .card-footer{
   border:0;
   background-color: white;
+}
+
+.btn{
+  position: relative;
+}
+
+.btn-secondary{
+  border:0;
+  transition: box-shadow 0.3s;
 }
 /***********************************/
 
@@ -180,6 +189,14 @@ footer li{
 
 .new_releases_img{
   padding-bottom: 10px;
+}
+
+.dropdown_menu{
+}
+
+.dropdown_menu img{
+  width:70px;
+  margin: 0 30px;
 }
 
 /******************************/
