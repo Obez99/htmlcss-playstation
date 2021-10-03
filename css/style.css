@@ -95,7 +95,7 @@ footer{
   border-radius: 15px;
 }
 
-section:nth-of-type(2) .col:first-child a:before{
+section:nth-of-type(2) .col:hover a:before{
   content: "";
   height: calc(100% + 10px);
   width: calc(100% + 10px);
