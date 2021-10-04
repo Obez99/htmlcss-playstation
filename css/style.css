@@ -133,7 +133,8 @@ section:nth-of-type(2) .col{
 
 .ps5_footer .col{
   opacity: 50%;
-  transition: opacity 1s;
+  border: 3px solid transparent;
+  transition: opacity 1s, border 1s;
 }
 
 .ps5_footer small{

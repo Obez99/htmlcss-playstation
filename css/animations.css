@@ -71,6 +71,5 @@ section:nth-of-type(2) .col:hover{
 
 .ps5_footer .col:hover{
   opacity: 100%;
-  border-bottom: 3px solid;
-  border-color: rgba(0, 114, 206, 1);
+  border-bottom: 3px solid #0072ce;
 }
