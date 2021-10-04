@@ -16,6 +16,10 @@
   color:#2D64E6;
 }
 
+.nav-link:focus + .dropdown-menu{
+  top:76px;
+}
+
 .btn::after{
   content:"";
   width: 100%;
@@ -59,7 +63,14 @@ section:nth-of-type(2) .col:hover{
   transform: translateY(-20px);
 }
 
+.dropdown-item:hover{
+  background-color: unset;
+  border-bottom: 1px solid #0072CE;
+}
+
+
 .ps5_footer .col:hover{
   opacity: 100%;
-  border-bottom: 3px solid #0072CE;
+  border-bottom: 3px solid;
+  border-color: rgba(0, 114, 206, 1);
 }

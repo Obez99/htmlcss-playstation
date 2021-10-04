@@ -91,6 +91,27 @@ footer{
   height: .7em;
 }
 
+.dropdown_head img{
+  width: 80px;
+}
+
+.dropdown_footer li{
+  display:inline-block;
+  padding: 0 20px;
+}
+
+.dropdown_footer a{
+  color:black;
+}
+
+.dropdown_footer li::before {
+  content: "\2022";
+  color: #2D64E6;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
 .section_small img, .section_medium img{
   border-radius: 15px;
 }
@@ -195,9 +216,29 @@ footer li{
   padding-bottom: 10px;
 }
 
-.dropdown_menu img{
-  width:70px;
-  margin: 0 30px;
+.dropdown{
+  position:initial;
+}
+
+.dropdown-menu{
+  display:block;
+  left:0;
+  top:-150px;
+  width: 100%;
+  border-radius: 0;
+  border:0;
+  text-align: center;
+  z-index:-1;
+  transition: top 1s;
+}
+
+.dropdown_head{
+  display: inline-block;
+}
+
+.dropdown-item{
+  border: 1px solid transparent;
+  transition: border .5s;
 }
 
 /******************************/
