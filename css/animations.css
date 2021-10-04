@@ -73,3 +73,7 @@ section:nth-of-type(2) .col:hover{
   opacity: 100%;
   border-bottom: 3px solid #0072ce;
 }
+
+footer a:hover{
+  color:white;
+}
